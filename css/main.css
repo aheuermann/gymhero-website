@@ -5,12 +5,12 @@ body{
 }
 
 section:nth-child(2){
-  margin-top:100px;
+  margin-top:50px;
 }
 
 h1 {
   font-family: 'Josefin Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 110px;
+  font-size: 105px;
   margin-top:0px;
   font-weight: 800;
 }
@@ -18,9 +18,21 @@ h1 {
 p{
   font-weight: 300;
   font-size: 30px;
+  letter-spacing: 2px;
 }
 .download{
-  margin-top:15px;
+  margin-top:5px;
+}
+
+.btn {
+  font-size: 30px;
+  width:100%;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.btn span {
+  padding-left: 5px;
+  vertical-align: middle;
 }
 
 @media (min-width: 992px) {
