@@ -1,0 +1,19 @@
+{
+  "name": "gymhero-website",
+  "version": "0.0.0",
+  "scripts": {
+    "start" : "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aheuermann/gymhero-website.git"
+  },
+  "author": "Andrew Heuermann",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/aheuermann/gymhero-website/issues"
+  },
+  "dependencies": {
+    "http-server": "~0.5.5"
+  }
+}
