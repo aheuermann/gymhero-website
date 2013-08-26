@@ -1,66 +1,47 @@
 body{
-  margin-top:80px;
-  background-color:#eee;
-}
-
-section{
-  margin-bottom: 200px;
-}
-
-section.screensSection > .container > div{
-  height:600px;
+  margin-top:50px;
+  background-color: #0f6bba;
+  color: #eee;
 }
 
 .details{
   margin-top: 50px;
 }
 
-.center-vertical{
-  display:inline-block;
-  vertical-align: middle;
+img.vertical {
+  max-height: 600px;
 }
 
-.vertical-helper {
+img.horizontal{
+  max-width: 600px;
+}
+
+.screens{
   display: inline-block;
-  vertical-align: middle;
-  height:100%;
+  position:relative;
+  height:600px;
+  width:100%;
 }
-
-.navbar-right > li > a.download {
-  padding: 7px;
-}
-
-.screens img {
+.screens img{
+  float:left;
+  display:inline-block;
   position:absolute;
 }
 
-.screens img.vertical {
-  height: 600px;
+.screens img.img1{
+  bottom:-40px;
+
 }
 
-.screens img.horizontal{
-  width: 600px;
+.screens img.img2{
+  left: 300px;
 }
 
-.screens img:first-child {
-  left:-100px;
+.screens img.img3{
+  left: 450px;
 }
 
-.screens img:nth-child(2) {
-  left:115px;
+.screens img.img4{
+  left: 600px;
 }
-.screens img.shift-right:nth-child(2) {
-  left:420px;
-}
-
-.screens img.horizontal{
-  left:0px;
-  bottom:-50px;
-}
-
-footer .container{
-  padding:25px;
-  border-top: 1px solid #aaa;
-}
-
 
